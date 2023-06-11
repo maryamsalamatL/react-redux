@@ -6,17 +6,19 @@ import HooksIceCreamContainer from "./components/HooksIceCreamContainer";
 import HooksColaContainer from "./components/HooksColaContainer";
 import CakeWithPayload from "./components/CakeWithPayload";
 import UserContainer from "./components/UserContainer";
+import PostsSaga from "./components/PostsSaga";
 
 function App() {
   return (
     <Provider store={store}>
       <div className="App">
-        <CakeContainer />
+        {/* <CakeContainer /> */}
         {/* <HooksCakeContainer />  */}
         {/* <CakeWithPayload />
         <HooksIceCreamContainer />
         <HooksColaContainer /> */}
-        <UserContainer />
+        {/* <UserContainer /> */}
+        <PostsSaga />
       </div>
     </Provider>
   );
